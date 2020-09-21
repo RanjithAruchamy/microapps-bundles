@@ -2,74 +2,74 @@
   "type" : "DIP",
   "vendor" : "Citrix",
   "id" : "com.sapho.services.workday.WorkdayService",
-  "version" : "0.1.14",
+  "version" : "0.1.15",
   "title" : "Workday",
   "description" : "",
   "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Workday.53a6fa429a68457228ca68adf0c387e6.svg",
-  "masVersion" : "1.28.7.1d7e670b50827b543cdba0eea918feec4413b0e4",
+  "masVersion" : "1.29.0-SNAPSHOT.37bd5a78a4782df4fe58844e46a3e64d41a253cf",
   "categories" : [ "WEB_SERVICES" ],
-  "created" : "2020-09-16T09:12:59",
+  "created" : "2020-09-18T15:24:05",
   "supportsOAuthForActions" : true,
   "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
   "apps" : [ {
-    "uuid" : "03de00c2-4b91-46f5-b913-e576b80cbeb4",
-    "title" : "Milestones",
-    "numberOfEvents" : 1,
-    "action" : true
-  }, {
-    "uuid" : "22de6fd8-e570-4591-8ec9-3c67abd928af",
+    "uuid" : "00cef96c-269f-4d35-96c7-dd737e4f8eec",
     "title" : "PTO Requests",
     "numberOfEvents" : 1,
     "action" : true
   }, {
-    "uuid" : "37e8ceaf-ce6f-4b26-82ec-0842102455d1",
-    "title" : "PTO Balance",
-    "numberOfEvents" : 0,
-    "action" : false
-  }, {
-    "uuid" : "3cbb6adc-7ffd-4582-a536-ce952d240a95",
-    "title" : "Change Job Requests",
-    "numberOfEvents" : 1,
-    "action" : true
-  }, {
-    "uuid" : "49ea4ccc-45e3-4f13-b465-53cf33bb109d",
-    "title" : "Create Milestone",
-    "numberOfEvents" : 0,
-    "action" : true
-  }, {
-    "uuid" : "4ce55b17-ca26-4732-b697-9d69a83c1af9",
-    "title" : "Create Change Job",
-    "numberOfEvents" : 0,
-    "action" : true
-  }, {
-    "uuid" : "57d010c9-fbd0-449b-83a3-18063540d29a",
-    "title" : "Create PTO Request",
-    "numberOfEvents" : 0,
-    "action" : true
-  }, {
-    "uuid" : "8219f459-4f29-4d86-92a6-c1cab693ba52",
-    "title" : "My Purchase Orders",
-    "numberOfEvents" : 0,
-    "action" : true
-  }, {
-    "uuid" : "85877600-3ef7-418c-9b78-8ad9b1c9b8f5",
-    "title" : "Expense Reports",
-    "numberOfEvents" : 1,
-    "action" : true
-  }, {
-    "uuid" : "c70a4bd4-f2fd-4bb2-8ed9-0cb6fc472646",
-    "title" : "Create Expense Report",
-    "numberOfEvents" : 0,
-    "action" : true
-  }, {
-    "uuid" : "dd614cfe-2d98-4a02-a141-87a6cadc53f5",
+    "uuid" : "0e860fd5-44d1-48fb-b247-b3a262b564cd",
     "title" : "My Expenses",
     "numberOfEvents" : 1,
     "action" : true
   }, {
-    "uuid" : "f98d888c-cb3e-496d-a86b-72b9e8261fa3",
+    "uuid" : "12c171b0-b2f7-4c8d-8c8d-046dd1576008",
     "title" : "My PTO Requests",
     "numberOfEvents" : 1,
+    "action" : true
+  }, {
+    "uuid" : "5b7b97f8-6bb6-431c-88e7-cb87aff31946",
+    "title" : "Expense Reports",
+    "numberOfEvents" : 1,
+    "action" : true
+  }, {
+    "uuid" : "8a4b4fec-b5eb-4713-85f3-c228db1d05b2",
+    "title" : "Create Change Job",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "8d05fc4e-4bb6-443b-b2c1-477cfde2b0ba",
+    "title" : "Create Milestone",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "96a7e74d-ec84-459e-97f2-2ab10307671a",
+    "title" : "Create Expense Report",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "9f1cf41d-3e90-4ca9-ae5e-bbeacf11e60b",
+    "title" : "Change Job Requests",
+    "numberOfEvents" : 1,
+    "action" : true
+  }, {
+    "uuid" : "c980503c-11c7-4281-878e-8811f9a6e5f4",
+    "title" : "PTO Balance",
+    "numberOfEvents" : 0,
+    "action" : false
+  }, {
+    "uuid" : "caba8040-2b33-458a-beb0-f648e458d106",
+    "title" : "My Purchase Orders",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "cc406c11-51e5-44a4-a1d6-4a0363272caa",
+    "title" : "Milestones",
+    "numberOfEvents" : 1,
+    "action" : true
+  }, {
+    "uuid" : "f5197ab5-8eb5-42aa-8dea-b8f83bb50d31",
+    "title" : "Create PTO Request",
+    "numberOfEvents" : 0,
     "action" : true
   } ],
   "vaResolvers" : [ {
